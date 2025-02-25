@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:productdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+    settings:
+      web-allow-others: true
+      trace: false
+      x-frame-options: ALLOWALL
+server:
+  port: 8080
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    url: /api-docs
+jwt:
+ secret: 92b6019217efb5a8fdd35a13b2c41041bafdcc9c2b9dfcc2e17df3d8048462722487ed6c8bc79a2927c0c54afe12c679685bb41402fe863b72a50ce9902af730d93caef06c15244bcdedb85fdb15685a700c9bae86eef9cd1b34bc1c885b8057b8f9ca4ad1bf2457b75a7fc54ed444d97b8cbf72df9aef8e2b1b8ffc72e1d831e999f9a2b9063a4d6004ef1d60691838119780212fc96b425692d7fc1cba10a9
