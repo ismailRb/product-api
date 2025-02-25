@@ -11,14 +11,8 @@ Ce projet est un back-end RESTful développé avec **Java Spring Boot**, permett
 
 ## **⚙️ Installation & Exécution**
 
-1. **Cloner le projet**
 
-   ```bash
-   git clone https://github.com/ton-repo.git
-   cd ton-repo
-   ```
-
-2. **Configurer l’application**   Vérifie le fichier **`application.yml`** pour la configuration de la **base de données H2** et **Swagger**.
+ **Configurer l’application**   Vérifie le fichier **`application.yml`** pour la configuration de la **base de données H2** et **Swagger**.
 
  
 ## **🔗 Accéder à Swagger UI**
