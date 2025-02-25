@@ -4,7 +4,7 @@ Ce projet est un back-end RESTful développé avec **Java Spring Boot**, permett
 
 ## **📌 Prérequis**
 
-- **JDK 11+**
+- **JDK 17+**
 - **Maven**
 - **IntelliJ IDEA /** (recommandé)
 - **Postman** (pour tester l'API manuellement)
