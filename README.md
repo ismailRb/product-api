@@ -50,7 +50,7 @@ Si l’accès est refusé, vérifie que `h2-console` est activé dans `applicati
 
 L'API est sécurisée avec **JSON Web Tokens (JWT)**.
 
-### **1⃣ Créer un compte utilisateur**
+### ** 1  Créer un compte utilisateur**
 
 **Endpoint** : `POST /account`
 
@@ -63,7 +63,7 @@ L'API est sécurisée avec **JSON Web Tokens (JWT)**.
 }
 ```
 
-### **2⃣ Se connecter et récupérer le token JWT**
+### ** 2 Se connecter et récupérer le token JWT**
 
 **Endpoint** : `POST /token`
 
@@ -82,7 +82,7 @@ L'API est sécurisée avec **JSON Web Tokens (JWT)**.
 }
 ```
 
-### **3⃣ Utiliser le token pour accéder aux endpoints sécurisés**
+### ** 3 Utiliser le token pour accéder aux endpoints sécurisés**
 
 Ajouter le token dans **Postman** ou Swagger :
 
